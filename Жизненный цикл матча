@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-12-02T12:40:24.461Z" agent="5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="3yk360aiRb2qhNf-V-vw" version="20.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-06T12:11:53.271Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="RoMftCyf046Rwp0zQd16" version="20.6.0" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1654" dy="465" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1803" dy="562" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -10,7 +10,7 @@
         <mxCell id="-k6qffysjQY7F5p59zVg-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="-k6qffysjQY7F5p59zVg-0" target="-k6qffysjQY7F5p59zVg-20" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="-k6qffysjQY7F5p59zVg-0" value="Матч сыгран&lt;br&gt;Статус на сервере:&amp;nbsp;ready for parsing&lt;br&gt;Статус в админке: ready for parsing" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="-k6qffysjQY7F5p59zVg-0" value="Матч сыгран&lt;br&gt;Статус на сервере: played&lt;br&gt;Статус в админке: ready for parsing" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="-356" y="230" width="240" height="80" as="geometry" />
         </mxCell>
         <mxCell id="-k6qffysjQY7F5p59zVg-1" value="Матч был сыгран?" style="rhombus;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
@@ -97,7 +97,7 @@
         <mxCell id="-k6qffysjQY7F5p59zVg-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="-k6qffysjQY7F5p59zVg-20" target="-k6qffysjQY7F5p59zVg-25" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="-k6qffysjQY7F5p59zVg-20" value="В админку приходит запрос от парсера, матч попадает в очередь на сбор&lt;br&gt;Статус на сервере: parsing in progress&lt;br&gt;Статус в админке: parsing in progress" style="whiteSpace=wrap;html=1;rounded=1;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="-k6qffysjQY7F5p59zVg-20" value="В админку приходит запрос от парсера, матч попадает в очередь на сбор&lt;br&gt;Статус на сервере: played&lt;br&gt;Статус в админке: parsing in progress" style="whiteSpace=wrap;html=1;rounded=1;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="-356" y="350" width="240" height="80" as="geometry" />
         </mxCell>
         <mxCell id="-k6qffysjQY7F5p59zVg-25" value="Парсер вернул данные?" style="rhombus;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
@@ -131,7 +131,7 @@
         <mxCell id="-k6qffysjQY7F5p59zVg-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="-k6qffysjQY7F5p59zVg-32" target="-k6qffysjQY7F5p59zVg-34" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="-k6qffysjQY7F5p59zVg-32" value="Матч собран&lt;br&gt;Статус на сервере: parsing in progress&lt;br&gt;Статус в админке: parsing done" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="-k6qffysjQY7F5p59zVg-32" value="Матч собран&lt;br&gt;Статус на сервере: played&lt;br&gt;Статус в админке: parsing done" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="-476" y="590" width="160" height="80" as="geometry" />
         </mxCell>
         <mxCell id="-k6qffysjQY7F5p59zVg-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="-k6qffysjQY7F5p59zVg-33" target="-k6qffysjQY7F5p59zVg-36" edge="1">
