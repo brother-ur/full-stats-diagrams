@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-12-09T11:15:26.711Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="HSspWk70EPYKfbPjQeYB" version="20.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-09T11:15:47.015Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="QL7ivVyobR9WT8J_yFRE" version="20.6.0" type="github">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
-    <mxGraphModel dx="361" dy="203" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1301" dy="731" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -62,7 +62,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="qHQJKQO2i5-u3Q4mEbJ6-6" value="Получает данные о матчах и сохраняет" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="77e6c97f196da883-4">
+        <mxCell id="qHQJKQO2i5-u3Q4mEbJ6-6" value="Получает данные о матчах и сохраняет" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="77e6c97f196da883-4">
           <mxGeometry x="-130" y="220" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qHQJKQO2i5-u3Q4mEbJ6-14" value="Получает данные и сохраняет их" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="77e6c97f196da883-4">
@@ -113,7 +113,7 @@
         <mxCell id="77e6c97f196da883-5" value="Парсер" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
           <mxGeometry x="480" y="20" width="160" height="730" as="geometry" />
         </mxCell>
-        <mxCell id="qHQJKQO2i5-u3Q4mEbJ6-8" value="Собирает данные о баскетбольных матчах и отправляет их" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="77e6c97f196da883-5">
+        <mxCell id="qHQJKQO2i5-u3Q4mEbJ6-8" value="Собирает данные о баскетбольных матчах и отправляет их" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="77e6c97f196da883-5">
           <mxGeometry x="30" y="220" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qHQJKQO2i5-u3Q4mEbJ6-39" value="Собирает данные о составах в баскетбольных матчах и отправляет их" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="77e6c97f196da883-5">
